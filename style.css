@@ -1,0 +1,35 @@
+@import url("https://fonts.google.com/specimen/Big+Shoulders?query=big+shoulders+display");
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  margin: 150px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100vw;
+}
+.containerBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: blue; /* temp color to see what I'm working with, remove later*/
+  width: 70vw;
+  height: 35vw;
+  padding: 30px;
+}
+
+.sedanBox {
+  background-color: hsl(31, 77%, 52%);
+  font-family: Lexend Deca;
+  padding: 75px;
+}
+.suvBox {
+}
