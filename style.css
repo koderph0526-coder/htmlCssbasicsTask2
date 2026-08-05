@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* Style to place all elements in their correct placement according to picture guide */
 main {
   display: flex;
   margin: 150px auto;
@@ -15,21 +16,53 @@ main {
 }
 
 img {
-  width: 100vw;
+  width: 100%;
+}
+
+.imgBox {
+  width: 5vw;
+  margin-bottom: 60px;
+}
+h1 {
+  margin-bottom: 20px;
 }
 .containerBox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: blue; /* temp color to see what I'm working with, remove later*/
-  width: 70vw;
+  width: 65vw;
   height: 35vw;
-  padding: 30px;
+  border-radius: 15px;
 }
 
-.sedanBox {
-  background-color: hsl(31, 77%, 52%);
-  font-family: Lexend Deca;
+/* Styling for text */
+.txtUtilityH {
+  /* font-family: url(Lexend Deca); -- Figure out how to connect the font */
+}
+
+.txtUtility {
+  /* font-family:; */
+}
+
+/* Layout of the conatiner boxes */
+.utilityStyle {
+  display: flex;
+  flex-direction: column;
   padding: 75px;
 }
+
+/* Adding color to the seperate div containers */
+.sedanBox {
+  background-color: #e38826;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
 .suvBox {
+  background-color: #006970;
+}
+
+.luxuryBox {
+  background-color: #004241;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
