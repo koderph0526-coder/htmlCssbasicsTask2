@@ -85,6 +85,9 @@ h1 {
   text-align: center;
   width: 110px;
   height: 40px;
+  padding: 11px 10px 10px 15px;
+  border: 0px;
+  border-radius: 20px;
   margin-top: 70px;
   margin-right: 20px;
   color: hsla(0, 0%, 100%, 0.689);
@@ -92,13 +95,16 @@ h1 {
 }
 
 .btnTxtCsedan {
-  color:;
+  color: #e38826;
+  font-weight: 700;
 }
 
 .btnTxtCsuv {
-  color:;
+  color: #006970;
+  font-weight: 700;
 }
 
 .btnTxtCluxury {
-  color:;
+  color: #004241;
+  font-weight: 700;
 }
