@@ -24,35 +24,37 @@ img {
 }
 
 .imgBox {
-  width: 5vw;
-  margin-bottom: 60px;
+  width: 4.5vw;
+  margin-bottom: 20px;
 }
 h1 {
   margin-bottom: 20px;
 }
+
+/*Layout style for the collection of divfferent divs for the different cars*/
 .containerBox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: blue; /* temp color to see what I'm working with, remove later*/
   width: 65vw;
   height: 35vw;
   border-radius: 15px;
 }
 
-/* Styling for text */
+/* Styling for header text */
 .txtUtilityH {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Big Shoulders Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   color: #f2f2f2;
 }
 
+/*style for p text*/
 .txtUtility {
   font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: larger;
   color: #ffffffbf;
 }
 
@@ -60,7 +62,8 @@ h1 {
 .utilityStyle {
   display: flex;
   flex-direction: column;
-  padding: 75px;
+  padding: 70px;
+  gap: 30px;
 }
 
 /* Adding color to the seperate div containers */
