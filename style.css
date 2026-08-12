@@ -51,7 +51,9 @@ h1 {
 
 /*style for p text*/
 .txtUtility {
-  font-family: "Lexend Deca", sans-serif;
+  font-family:
+    Lexend Deca,
+    sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: larger;
